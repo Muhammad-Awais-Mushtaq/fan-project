@@ -1,0 +1,37 @@
+#fan {
+    width: 200px; /* Adjust the size of the fan image as needed */
+}
+
+.onfan {
+    animation: rotate 0.5s linear infinite;
+}
+
+.offfan {
+    animation: none;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(390deg);
+    }
+}
+h1{
+    text-align: center;
+    color: rgb(206, 159, 29);
+    text-decoration: wavy cornsilk;
+}
+body{
+    background-color: rgb(8, 148, 50);
+}
+button{
+    width: 50px;
+    height: 50px;
+    color: crimson;
+   background-color:chartreuse ;
+   font-weight: bold;
+   text-decoration: dotted crimson;
+   rotate: 50px;
+}
